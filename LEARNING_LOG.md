@@ -9,7 +9,7 @@
 - .gitignore root mein kyun honi chahiye (poore repo pe apply hoti hai)
 
 
-## Day 2 — [Date daal de]
+## Day 2 — 01-09-2026
 
 **Kya kiya:**
 - `users` aur `conversations` tables ka schema design + create kiya PostgreSQL mein
