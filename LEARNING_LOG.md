@@ -33,3 +33,17 @@
 **Kya seekha:**
 - CHECK constraint kya karta hai: `CHECK` is basically use for check the values is right or not with our options
 - JOIN kya karta hai aur kyun zaroori hai: `JOIN` is show the data of different tables with our needs.
+
+## Day 4 — 04-09-2026
+
+**Kya kiya:**
+- Node.js ko `pg` library se PostgreSQL se connect kiya (`.env` + `db.js`)
+- `GET /users`, `POST /conversations`, `POST /messages` routes banaye
+- Multi-table JOIN chalaya (users + conversations + messages)
+
+**Kya seekha:**
+- `.env` file secrets ko code se alag rakhti hai, git mein commit nahi hoti
+- `Pool` multiple database connections manage karta hai
+- Parameterized queries (`$1, $2`) SQL Injection se bachati hain
+- `RETURNING *` se insert ke baad naya row wapas milta hai
+- CHECK constraint violation `try/catch` se pakad ke clean error bhej sakte hain
